@@ -1,0 +1,29 @@
+# Secrets
+.env
+*.env
+
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter (optional)
+.ipynb_checkpoints/
